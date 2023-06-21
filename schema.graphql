@@ -1,0 +1,13 @@
+type Query {
+  branches: [Branch]
+}
+
+type Branch {
+  branch: String
+  ifsc: String
+  bank: Bank
+}
+
+type Bank {
+  name: String
+}
